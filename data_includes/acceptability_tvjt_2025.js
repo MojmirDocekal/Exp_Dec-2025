@@ -1,4 +1,4 @@
-var shuffleSequence = seq("intro", sepWith("sep",  seq("practice")), "practiceover", sepWith("sep", rshuffle(startsWith("first-item"), startsWith("firstfiller"))), seq("practice-two"), "practice-two-over", sepWith("sep", rshuffle(startsWith("followup"), startsWith("filler"))));
+var shuffleSequence = seq("intro", sepWith("sep",  seq("practice")), "practiceover", sepWith("sep", rshuffle(startsWith("first-item"), startsWith("firstfiller"))), "practice-two-before", seq("practice-two"), "practice-two-over", sepWith("sep", rshuffle(startsWith("followup"), startsWith("filler"))));
 
 var continueMessage = ["Klikni zde"];
 
@@ -44,35 +44,8 @@ var items = [ ["sep", "Separator", { }],
 
 ["firstfiller1", aj, {s: "Já, starý sadař nejsem přišel do lesa celé roky." }],
 ["firstfiller_item2", aj, {s: "Já, starý sadař, jsem nepřišel do lesa celé roky." }],
-["firstfiller_item3", aj, {s: "Ten nový student bude zítra přečíst tu vyžádanou knihu." }],
-["firstfiller_item4", aj, {s: "Ten nový student přečte zítra tu vyžádanou knihu." }],
-["firstfiller_item5", aj, {s: "Černý kocour pronásledovala po dvorku bílou kočku." }],
-["firstfiller_item6", aj, {s: "Bílá kočka pronásledovala po dvorku černého kocoura." }],
-["firstfiller_item7", aj, {s: "Svůj dědeček viděl Karla na nádraží." }],
-["firstfiller_item8", aj, {s: "Karel viděl svého dědečka na nádraží." }],
-["firstfiller_item9", aj, {s: "Petr chtěl, aby mu Karel pomůže se štípáním dřeva." }],
-["firstfiller_item10", aj, {s: "Petr přijel včera až do půlnoci." }],
-["firstfiller_item11", aj, {s: "Petr přečetl tu novou knihu celou noc." }],
-["firstfiller_item12", aj, {s: "Petr slyšel Karlem zpívat celou noc." }],
-["firstfiller_item13", aj, {s: "Pět chlapci přišli na dvůr hrát fotbal." }],
-["firstfiller_item14", aj, {s: "Trojice chlapců včera v baru vypila pivo každý." }],
-["firstfiller_item15", aj, {s: "Každý student se sešel včera na dvorku." }],
-["firstfiller_item16", aj, {s: "Petr přinesl na dvůr všechen pes." }],
-["firstfiller_item17", aj, {s: "Většina chlapců přinesli zadaný úkol v pořádku." }],
-["firstfiller_item18", aj, {s: "Málo dívek přišlo na schůzku pozdě." }],
-["firstfiller_item19", aj, {s: "Petr včera přijít do obchodu a jíst ten salám." }],
-["firstfiller_item20", aj, {s: "Koho Petr viděl muže, který na dvorku pozdravil?" }],
-["firstfiller_item21", aj, {s: "Koho na dvorku Petr viděl Kláru a?" }],
-["firstfiller_item22", aj, {s: "Koho Petr nevěděl, kdo včera pozdravil?" }],
-["firstfiller_item23", aj, {s: "Mladý muž se mu, který kouřil cigaretu, představil." }],
-["firstfiller_item24", aj, {s: "Mladý muž, který kouřil cigaretu, se mu představil." }],
-["firstfiller_item25", aj, {s: "Petr přinesl do sběrného dvora dvě dveře." }],
-["firstfiller_item26", aj, {s: "Petr viděl včera večer mladého muže a v parku." }],
-["firstfiller_item27", aj, {s: "Petr vrátil do knihovny knihu a unavený." }],
-["firstfiller_item28", aj, {s: "Ta loď se bohužel potopila křižníkem." }],
-["firstfiller_item29", aj, {s: "Petr mával celý večer pes." }],
-["firstfiller_item30", aj, {s: "Když jsem přišel, Karel už byl dvě hodiny odjet." }],
 
+["practice-two-before", "Message", {continueMessage: "Klikněte zde pro pokračování experimentu", html: ["div", ["p", "Zde končí první část experimentu. Klikněte níže pro vysvětlení druhé části experimentu."]]}],
 
  ["practice-two", aj, {s: {html: "<center><table><table cellspacing=100><tr><td><img style=\"display:block;max-width:350px;max-height:350px;width: auto;height: auto;\" src=\"https://github.com/MojmirDocekal/jan_2019_brn_vie/blob/master/1_nd_wrong.jpg?raw=true\"></td><td><img style=\"display:block;max-width:400px;max-height:400px;width: auto;height: auto;\" src=\"https://github.com/MojmirDocekal/jan_2019_brn_vie/blob/master/1_non-distributive.jpg?raw=true\"></td></table></center>Kontext: Aleš a Bedřich byli včera se svými manželkami na večírku. Obě manželky požádaly své manžele, aby je vyfotili. Aleš svoji manželku vyfotil, ale Bedřich ne, protože měl vybitý telefon.<center><p>Věta: <i>Pouze jeden manžel vyfotil svoji manželku.</i></p></p>Věta je adekvátní vůči kontextu a zároveň odpovídá levému obrázku, neboť na něm pouze jeden muž fotí ženu. Pravý obrázek neodpovídá, neboť na něm fotí dva muži. Odpověď <i>ani jeden</i> zde není adekvátní, protože k větě se hodí obrázek nalevo. Klikněte tedy na odpověď <i>levý</i>.</center>"}, hasCorrect: 0}],
              
