@@ -37,9 +37,14 @@ var items = [ ["sep", "Separator", { }],
 [["first-item1-acc-most", 1], aj, {s: "Většina návštěvníků se sebemenším zájmem o archeologii zvládla tento exponát hned poznat."}],
 [["first-item1-acc-some", 1], aj, {s: "Někteří návštěvníci se sebemenším zájmem o archeologii zvládli tento exponát hned poznat."}],
 
-[["first-item2-acc-all", 2], aj, {s: "Všechny zákaznice se sebemenší alergií na odlakovač musely ze salonu preventivně odejít.s"}],
+[["first-item2-acc-all", 2], aj, {s: "Všechny zákaznice se sebemenší alergií na odlakovač musely ze salonu preventivně odejít."}],
 [["first-item2-acc-most", 2], aj, {s: "Většina zákaznic se sebemenší alergií na odlakovač musela ze salonu preventivně odejít."}],
 [["first-item2-acc-some", 2], aj, {s: "Některé zákaznice se sebemenší alergií na odlakovač musely ze salonu preventivně odejít."}],
+
+[["first-item3-acc-all", 3], aj, {s: "Všichni občané se sebemenší vírou v Boha chtěli nalezenému dítěti naplánovat křest."}],
+[["first-item3-acc-most", 3], aj, {s: "Většina občanů se sebemenší vírou v Boha chtěla nalezenému dítěti naplánovat křest."}],
+[["first-item3-acc-some", 3], aj, {s: "Někteří občané se sebemenší vírou v Boha chtěli nalezenému dítěti naplánovat křest."}],
+
 
 
 ["firstfiller1", aj, {s: "Já, starý sadař nejsem přišel do lesa celé roky." }],
