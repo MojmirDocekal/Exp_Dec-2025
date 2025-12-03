@@ -1,4 +1,4 @@
-var shuffleSequence = seq("intro", sepWith("sep",  seq("practice")), "practiceover", sepWith("sep", rshuffle(startsWith("first-item"), startsWith("firstfiller"))), "practice-two-before", seq("practice-two"), "practice-two-over", sepWith("sep", rshuffle(startsWith("followup"), startsWith("filler"))));
+var shuffleSequence = seq("intro", sepWith("sep",  seq("practice")), "practiceover", sepWith("sep", rshuffle(startsWith("first-item"), startsWith("first-filler"))), "practice-two-before", seq("practice-two"), "practice-two-over", sepWith("sep", rshuffle(startsWith("second-item"), startsWith("second-filler"))));
 
 var continueMessage = ["Klikni zde"];
 
@@ -25,7 +25,7 @@ var defaults = [
 
 var items = [ ["sep", "Separator", { }],
  
-	      ["intro", "Form", {continueMessage: "Pro vstup do experimentu, klikněte zde", html: { include: "example_intro.html" }}],
+	      ["intro", "Form", {continueMessage: "Pro vstup do experimentu klikněte zde", html: { include: "example_intro.html" }}],
 
 	      ["practice", aj, {s: {html: "<p>Pavel uviděl Marušku.</p><p><i>Tato věta je v pořádku. Pokud souhlasíte, vyberte jednu z možností v pravém konci škály (nejspíš 5).</i></p>"}}],
 ["practice", aj, {s: {html: "Ačkoliv byla Marie unavená, navštívila včera ještě vedoucího hasičské jednotky Tříbětice.</p><p><i>Tato věta je v pořádku. Pokud souhlasíte, vyberte jako odpověď jednu z možností v pravém konci škály (nejspíš 5).</i></p>"}}],
