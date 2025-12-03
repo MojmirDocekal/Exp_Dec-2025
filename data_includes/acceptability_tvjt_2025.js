@@ -129,9 +129,18 @@ var items = [ ["sep", "Separator", { }],
 [["first-item18-acc-most", 18], aj, {s: "Většina dětí se sebemenší úctou k seniorům navštívila během prázdnin domov důchodců."}],
 [["first-item18-acc-some", 18], aj, {s: "Některé děti se sebemenší úctou k seniorům navštívily během prázdnin domov důchodců."}],
 
-
-["firstfiller1", aj, {s: "Já, starý sadař nejsem přišel do lesa celé roky." }],
-["firstfiller2", aj, {s: "Já, starý sadař, jsem nepřišel do lesa celé roky." }],
+["first-filler1-good", aj, {s: "Letošní pořadatelé festivalu počítali s menší účastí a proto snížili rozpočet." }],
+["first-filler2-good", aj, {s: "Chlapci stáli v pokoji, kde už se nacházela pouze skříň, a prohlíželi si popraskané stěny." }],
+["first-filler3-good", aj, {s: "Jeden soutěžící s nejvyšším počtem bodů vyhraje celou hru a získá zlatý pohár." }],
+["first-filler4-good", aj, {s: "Tento kurz, ve kterém uspělo padesát procent studentů, je nejtěžším kurzem v naší nabídce." }],
+["first-filler5-good", aj, {s: "Mnoho lidí, kteří přežili tragickou autonehodu, částečně přišlo o sluch."}],
+["first-filler6-good", aj, {s: "Všechny ženy, se kterými Naďa šla do čajovny, měly více či méně problematickou minulost." }],
+["first-filler7-bad", aj, {s: "Svoje domácí zmrzlina s trochou slaného karamelu je skvělý dezert na dnešní oběd." }],
+["first-filler8-bad", aj, {s: "Každý student, který nebyl zrovna u zkoušky, se sešel na náměstí Svobody." }],
+["first-filler9-bad", aj, {s: "Moje prababička, která už je velmi stará, si pamatuje, co jí nikdo řekne." }],
+["first-filler10-bad", aj, {s: "Až mi ten dokument vytiskl, tak mi ji prosím polož na ten nejmenší stůl." }],
+["first-filler11-bad", aj, {s: "Žádný malíř bude hladovět, pokud si každá domácnost koupí dva obrazy." }],
+["first-filler12-bad", aj, {s: "Rostliny s dlouhými kořeny sobě špatně vykopávají ze země." }],
 
 ["practice-two-before", "Message", {continueMessage: "Klikněte zde pro pokračování experimentu", html: ["div", ["p", "Zde končí první část experimentu. Klikněte níže pro vysvětlení druhé části experimentu."]]}],
 
