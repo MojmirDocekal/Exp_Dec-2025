@@ -127,7 +127,7 @@ var items = [ ["sep", "Separator", { }],
 
 [["first-item18-acc-all", 18], aj, {s: "Všechny děti se sebemenší úctou k seniorům navštívily během prázdnin domov důchodců."}],
 [["first-item18-acc-most", 18], aj, {s: "Většina dětí se sebemenší úctou k seniorům navštívila během prázdnin domov důchodců."}],
-[["first-item+18-acc-some", 18], aj, {s: "Některé děti se sebemenší úctou k seniorům navštívily během prázdnin domov důchodců."}],
+[["first-item18-acc-some", 18], aj, {s: "Některé děti se sebemenší úctou k seniorům navštívily během prázdnin domov důchodců."}],
 
 
 ["firstfiller1", aj, {s: "Já, starý sadař nejsem přišel do lesa celé roky." }],
